@@ -1,0 +1,36 @@
+.About-crd-container {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 3px 3px 3px 3px grey;
+  max-width: 190px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border-bottom: 3px solid blue;
+  margin: 5px;
+}
+
+.crd-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: inherit;
+}
+
+.crd-heading {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.crd-logo {
+  font-size: 25px;
+}
+
+.crd-num {
+  font-size: 18px;
+  font-weight: 700;
+}

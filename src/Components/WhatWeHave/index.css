@@ -1,0 +1,47 @@
+.having-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: inherit;
+  text-align: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 30px;
+  padding: 40px;
+
+  border-top: 2px solid blue;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px grey;
+  transition: 1s;
+}
+
+.lower-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0px;
+}
+
+.having-card:hover {
+  transform: scale(1.04);
+  background: aliceblue;
+  z-index: 2;
+  box-shadow: 3px 3px 3px 3px grey;
+}
+
+.lower-heading {
+  margin: 3px;
+}
+
+.having-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.having-icon {
+  font-size: 20px;
+}
